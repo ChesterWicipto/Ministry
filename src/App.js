@@ -1,23 +1,22 @@
-import navcol from "./App.css";
-import img from "./Mikey.png";
-import a from "./a.jpg";
-import b from "./b.jpg";
-import c from "./c.jpg";
-import d from "./d.jpg";
-import e from "./e.jpg";
-import f from "./f.jpg";
-import g from "./g.jpg";
-import h from "./h.jpg";
+import { navcol, head } from "./App.css";
+import img from "./Logo.png";
+import a from "./bugis.jpg";
+import b from "./slide.jpg";
+import e from "./taman.jpg";
+import f from "./wis.jpg";
+import h from "./pulau.jpg";
 import i from "./i.jpg";
+import j from "./air.jpg";
+import k from "./trans.jpg";
 
 const App = () => {
   return (
     <div>
       <div id="home">
-        <nav class="navbar navbar-expand-lg navbar-light navcol shadow-sm fixed-top">
+        <nav class="navbar navbar-expand-lg navbar-light head shadow-sm fixed-top">
           <div class="container">
             <a class="navbar-brand" href="#">
-              Chester Wicipto
+              <i class="bi bi-person-circle"></i>
             </a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
               <span class="navbar-toggler-icon"></span>
@@ -26,7 +25,7 @@ const App = () => {
               <ul class="navbar-nav ms-auto">
                 <li class="nav-item">
                   <a class="nav-link active" aria-current="page" href="#home">
-                    Home
+                    <i class="bi bi-house-door-fill me-4"></i>
                   </a>
                 </li>
                 <li class="nav-item">
@@ -35,8 +34,8 @@ const App = () => {
                   </a>
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link" href="#project">
-                    Project
+                  <a class="nav-link" href="#galery">
+                    Gallery
                   </a>
                 </li>
                 <li class="nav-item">
@@ -50,94 +49,110 @@ const App = () => {
         </nav>
       </div>
       <section class="jumbotron text-center">
-        <img src={img} alt="..." width="200" className="rounded-circle img-thumbnail" />
-        <h1 class="display-4">Mikey</h1>
-        <p class="lead">Leader</p>
+        <img
+          src={img}
+          alt="..."
+          width="200"
+          className="rounded-circle img-thumbnail"
+          data-aos="flip-left"
+          data-aos-offset="200"
+          data-aos-delay="50"
+          data-aos-duration="1000"
+          data-aos-easing="ease-in-out"
+          data-aos-mirror="true"
+          data-aos-once="false"
+        />
+        <h1 class="display-4 text-white">CV. Arsy Global Nusantara </h1>
+        <p class="lead text-white">Company</p>
         <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
           <path
             fill="white"
             fill-opacity="1"
-            d="M0,160L34.3,186.7C68.6,213,137,267,206,261.3C274.3,256,343,192,411,176C480,160,549,192,617,213.3C685.7,235,754,245,823,229.3C891.4,213,960,171,1029,133.3C1097.1,96,1166,64,1234,69.3C1302.9,75,1371,117,1406,138.7L1440,160L1440,320L1405.7,320C1371.4,320,1303,320,1234,320C1165.7,320,1097,320,1029,320C960,320,891,320,823,320C754.3,320,686,320,617,320C548.6,320,480,320,411,320C342.9,320,274,320,206,320C137.1,320,69,320,34,320L0,320Z"
+            d="M0,32L60,69.3C120,107,240,181,360,186.7C480,192,600,128,720,128C840,128,960,192,1080,208C1200,224,1320,192,1380,176L1440,160L1440,320L1380,320C1320,320,1200,320,1080,320C960,320,840,320,720,320C600,320,480,320,360,320C240,320,120,320,60,320L0,320Z"
           ></path>
         </svg>
       </section>
+
       <section id="about">
         <div className="container p-5">
           <div className="row">
             <div className="col text-center mb-4">
-              <h2>About me</h2>
+              <h2>About Us</h2>
             </div>
           </div>
           <div className="row justify-content-center fs-4 text-center">
-            <div className="col-md-4">
-              <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Molestias aut, repellat ipsum facere voluptate dicta obcaecati deserunt nobis suscipit eaque?</p>
+            <div className="col-md-4" data-aos="fade-right" data-aos-offset="200" data-aos-delay="50" data-aos-duration="1000" data-aos-easing="ease-in-out" data-aos-mirror="true" data-aos-once="false">
+              <p>
+                {" "}
+                <span class="teks">Visi</span> :Menjadi perusahaan multi nasional tingkat global dalam jasa pelayanan transportasi, akomodasi, tours & travel yang dapat memberikan kontribusi pertumbuhan ekonomi.
+              </p>
             </div>
-            <div className="col-md-4">
-              <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Molestias aut, repellat ipsum facere voluptate dicta obcaecati deserunt nobis suscipit eaque?</p>
+            <div className="col-md-4" data-aos="fade-left" data-aos-offset="200" data-aos-delay="50" data-aos-duration="1000" data-aos-easing="ease-in-out" data-aos-mirror="true" data-aos-once="false">
+              <p>
+                <span class="teks">Misi</span> : Melayani dan menyediakan produk yang terbaik kepada seluruh pelanggan dan mitra, untuk jasa transportasi, akomodasi dan tours & travel.Menyiapkan SDM yang handal dan terampil dibidangnya dan
+                berkomitmen pada standard kerja yang tinggi.
+              </p>
             </div>
           </div>
         </div>
         <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
-          <path
-            fill="#87ceeb"
-            fill-opacity="1"
-            d="M0,128L34.3,128C68.6,128,137,128,206,133.3C274.3,139,343,149,411,165.3C480,181,549,203,617,224C685.7,245,754,267,823,256C891.4,245,960,203,1029,208C1097.1,213,1166,267,1234,282.7C1302.9,299,1371,277,1406,266.7L1440,256L1440,320L1405.7,320C1371.4,320,1303,320,1234,320C1165.7,320,1097,320,1029,320C960,320,891,320,823,320C754.3,320,686,320,617,320C548.6,320,480,320,411,320C342.9,320,274,320,206,320C137.1,320,69,320,34,320L0,320Z"
-          ></path>
+          <path fill="#87ceeb" fill-opacity="1" d="M0,128L480,32L960,128L1440,160L1440,320L960,320L480,320L0,320Z"></path>
         </svg>
       </section>
-      <section id="project" className="navcol">
+      <section id="galery" className="navcol">
         <div className="container p-5">
           <div className="row">
             <div className="col text-center mb-4">
-              <h2>Project</h2>
+              <h2>Gallery PAKET TOUR</h2>
             </div>
           </div>
           <div className="row justify-content-center fs-5 text-center">
             <div className="col-md-4 mb-4">
-              <div class="card">
-                <img src={a} class="card-img-top" alt="..." />
+              <div class="card" data-aos="flip-right" data-aos-offset="200" data-aos-delay="50">
+                <img src={j} class="card-img-top" alt="..." />
                 <div class="card-body">
-                  <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                  <p class="card-text">Paket Tour Malino - Makassar 2 Hari 1 Malam dikemas… </p>
+                  <br></br>
                 </div>
               </div>
             </div>
             <div className="col-md-4 mb-4">
-              <div class="card">
-                <img src={b} class="card-img-top" alt="..." />
+              <div class="card" data-aos="flip-right" data-aos-offset="200" data-aos-delay="150">
+                <img src={k} class="card-img-top" alt="..." />
                 <div class="card-body">
-                  <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                  <p class="card-text">Dalam Paket Tour Trans Studio Makassar 4 Hari 3 Malamini, kami…</p>
                 </div>
               </div>
             </div>
             <div className="col-md-4 mb-4">
-              <div class="card">
-                <img src={e} class="card-img-top" alt="..." />
-                <div class="card-body">
-                  <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                </div>
-              </div>
-            </div>
-            <div className="col-md-4 mb-4">
-              <div class="card">
-                <img src={f} class="card-img-top" alt="..." />
-                <div class="card-body">
-                  <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                </div>
-              </div>
-            </div>
-            <div className="col-md-4 mb-4">
-              <div class="card">
+              <div class="card" data-aos="flip-right" data-aos-offset="200" data-aos-delay="250">
                 <img src={h} class="card-img-top" alt="..." />
                 <div class="card-body">
-                  <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                  <p class="card-text">Sedang cari paket wisata ke Makassar yang super lengkap?! Paket… 3 Hari 2 Malam</p>
                 </div>
               </div>
             </div>
             <div className="col-md-4 mb-4">
-              <div class="card">
-                <img src={i} class="card-img-top" alt="..." />
+              <div class="card" data-aos="flip-right" data-aos-offset="200" data-aos-delay="350">
+                <img src={e} class="card-img-top" alt="..." />
                 <div class="card-body">
-                  <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                  <p class="card-text">Paket Tour Makassar 4 hari 3 Malam adalah program wisata</p>
+                </div>
+              </div>
+            </div>
+            <div className="col-md-4 mb-4">
+              <div class="card" data-aos="flip-right" data-aos-offset="200" data-aos-delay="450">
+                <img src={a} class="card-img-top" alt="..." />
+                <div class="card-body">
+                  <p class="card-text"> Dalam Paket Tour Keluarga Makassar 2 Hari 1 Malam…</p>
+                </div>
+              </div>
+            </div>
+            <div className="col-md-4 mb-4">
+              <div class="card" data-aos="flip-right" data-aos-offset="200" data-aos-delay="550">
+                <img src={f} class="card-img-top" alt="..." />
+                <div class="card-body">
+                  <p class="card-text">Kawasan Indonesia Timur terkenal akan panorama wisata bahari yang cantik…</p>
                 </div>
               </div>
             </div>
@@ -155,7 +170,7 @@ const App = () => {
         <div className="container p-5">
           <div className="row">
             <div className="col text-center">
-              <h2>Contact me</h2>
+              <h2>Contact Us</h2>
             </div>
           </div>
           <div className="row justify-content-center mt-2">
@@ -198,12 +213,10 @@ const App = () => {
         </svg>
       </section>
       <footer className="navcol text-center pb-4">
-        <p>
-          Created by <i class="bi bi-suit-heart-fill text-danger"></i> Lee H W{" "}
-          <a href="https://www.instagram.com/lee_hongw/" className="fw-bold">
-            @lee_hongw
-          </a>{" "}
-        </p>
+        <p class="fw-bold">Created by Group 6 : </p>
+        <p class="fw-bold">Chester Wicipto </p>
+        <p class="fw-bold">Wowor, Velinka Vione</p>
+        <p class="fw-bold"> Pejoh, Tiffany Janice Gaby</p>
       </footer>
     </div>
   );

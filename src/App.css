@@ -3,8 +3,25 @@
 }
 .jumbotron {
   padding-top: 7rem;
-  background-color: #fdeb84;
+  background-color: navy;
 }
 /* .body {
   min-height: 1000px;
 } */
+.head {
+  background-color: #ff932f;
+}
+
+.set {
+  background-color: #87ceeb;
+  justify-content: center;
+}
+.slide {
+  justify-content: center;
+  height: 30rem;
+}
+.teks {
+  font-style: italic;
+  color: blue;
+  font-size: 2rem;
+}
