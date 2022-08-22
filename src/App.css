@@ -1,15 +1,15 @@
 .navcol {
-  background-color: #87ceeb;
+  background-color: #f52349;
 }
 .jumbotron {
   padding-top: 7rem;
-  background-color: navy;
+  background-color: #f52349;
 }
 /* .body {
   min-height: 1000px;
 } */
 .head {
-  background-color: #ff932f;
+  background-color: #fdd3db;
 }
 
 .set {
@@ -24,4 +24,7 @@
   font-style: italic;
   color: blue;
   font-size: 2rem;
+}
+.judul {
+  font-weight: bold;
 }
