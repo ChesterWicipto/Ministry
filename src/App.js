@@ -1,13 +1,6 @@
 import { navcol, head } from "./App.css";
 import img from "./img.png";
-import a from "./bugis.jpg";
-import b from "./slide.jpg";
-import e from "./taman.jpg";
-import f from "./wis.jpg";
-import h from "./pulau.jpg";
-import i from "./i.jpg";
-import j from "./air.jpg";
-import k from "./trans.jpg";
+import tes from "./b.jpg";
 
 const App = () => {
   return (
@@ -109,7 +102,7 @@ const App = () => {
           <div className="row justify-content-center fs-5 text-center">
             <div className="col-md-4 mb-4">
               <div class="card" data-aos="flip-right" data-aos-offset="200" data-aos-delay="50">
-                <img src={j} class="card-img-top" alt="..." />
+                <img src={tes} class="card-img-top" alt="..." />
                 <div class="card-body">
                   <p class="card-text">Paket Tour Malino - Makassar 2 Hari 1 Malam dikemas… </p>
                   <br></br>
@@ -118,7 +111,7 @@ const App = () => {
             </div>
             <div className="col-md-4 mb-4">
               <div class="card" data-aos="flip-right" data-aos-offset="200" data-aos-delay="150">
-                <img src={k} class="card-img-top" alt="..." />
+                <img src={tes} class="card-img-top" alt="..." />
                 <div class="card-body">
                   <p class="card-text">Dalam Paket Tour Trans Studio Makassar 4 Hari 3 Malamini, kami…</p>
                 </div>
@@ -126,7 +119,7 @@ const App = () => {
             </div>
             <div className="col-md-4 mb-4">
               <div class="card" data-aos="flip-right" data-aos-offset="200" data-aos-delay="250">
-                <img src={h} class="card-img-top" alt="..." />
+                <img src={tes} class="card-img-top" alt="..." />
                 <div class="card-body">
                   <p class="card-text">Sedang cari paket wisata ke Makassar yang super lengkap?! Paket… 3 Hari 2 Malam</p>
                 </div>
@@ -134,7 +127,7 @@ const App = () => {
             </div>
             <div className="col-md-4 mb-4">
               <div class="card" data-aos="flip-right" data-aos-offset="200" data-aos-delay="350">
-                <img src={e} class="card-img-top" alt="..." />
+                <img src={tes} class="card-img-top" alt="..." />
                 <div class="card-body">
                   <p class="card-text">Paket Tour Makassar 4 hari 3 Malam adalah program wisata</p>
                 </div>
@@ -142,7 +135,7 @@ const App = () => {
             </div>
             <div className="col-md-4 mb-4">
               <div class="card" data-aos="flip-right" data-aos-offset="200" data-aos-delay="450">
-                <img src={a} class="card-img-top" alt="..." />
+                <img src={tes} class="card-img-top" alt="..." />
                 <div class="card-body">
                   <p class="card-text"> Dalam Paket Tour Keluarga Makassar 2 Hari 1 Malam…</p>
                 </div>
@@ -150,7 +143,7 @@ const App = () => {
             </div>
             <div className="col-md-4 mb-4">
               <div class="card" data-aos="flip-right" data-aos-offset="200" data-aos-delay="550">
-                <img src={f} class="card-img-top" alt="..." />
+                <img src={tes} class="card-img-top" alt="..." />
                 <div class="card-body">
                   <p class="card-text">Kawasan Indonesia Timur terkenal akan panorama wisata bahari yang cantik…</p>
                 </div>
